@@ -92,17 +92,6 @@ dependencies:
 library:
   source-dirs: src
 
-executables:
-  data-format-udmf-exe:
-    main:                Main.hs
-    source-dirs:         app
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - data-format-udmf
-
 tests:
   data-format-udmf-test:
     main:                Spec.hs
